@@ -71,6 +71,7 @@ void defaultsettings() {
   vars1.steermax = 45;
   vars1.steeroffset = 0;
   vars1.steerinvert = 0;
+  vars1.drivemode = 0;
 }
 void savesettings() {
   EEPROM.put(ADR_SETTINGS, vars1);
